@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hanna’s All-in-One HTML Page</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Web Page ?</h1>
+    <p><b>Created by:</b> <i>Hanna Nigussie</i></p>
+    <a href="https://www.google.com">Visit Google</a>
+    <hr>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <h2>About Me</h2>
+    <p>
+      Hello! My name is <strong>Hanna</strong>, and I want to be a 
+      <em>big web developer</em> in the future.
+      <br>
+      I love learning <mark>HTML</mark> and <mark>CSS</mark> every day.
+    </p>
+
+    <h3>My Goals</h3>
+    <ul>
+      <li>Learn HTML and CSS</li>
+      <li>Build my first website</li>
+      <li>Become a professional developer</li>
+    </ul>
+
+    <h3>My Daily Routine</h3>
+    <ol>
+      <li>Wake up early</li>
+      <li>Study web development</li>
+      <li>Practice coding projects</li>
+      <li>Review my progress</li>
+    </ol>
+
+    <h3>Favorite Quote</h3>
+    <blockquote>
+      "Dream big, work hard, and never give up."
+    </blockquote>
+
+    <h3>My Photo</h3>
+    <img src="myphoto.jpg" alt="Hanna's photo" width="200" height="200">
+
+    <h3>My Favorite Links</h3>
+    <p>Visit my favorite websites:</p>
+    <ul>
+      <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+      <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+    </ul>
+
+    <h3>My Learning Progress</h3>
+    <table border="1">
+      <caption>Study Progress</caption>
+      <tr>
+        <th>Subject</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Learning</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Next Step</td>
+      </tr>
+    </table>
+
+    <h3>Contact Me</h3>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" rows="4" cols="30" placeholder="Write something..."></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <hr>
+    <p><small>© 2025 Hanna Nigussie — All Rights Reserved.</small></p>
+  </footer>
+</body>
+</html>
